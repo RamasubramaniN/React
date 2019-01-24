@@ -1,0 +1,53 @@
+.loginForm {
+	width: 1000px;
+	height: 300px;
+}
+
+.loginButton {
+	border-radius: 5px;
+	font-size: 12px;
+	float: right;
+	width: 100px;
+	height: 30px;
+}
+
+.logoutButton {
+	border-radius: 5px;
+	font-size: 12px;
+	float: right;
+	width: 100px;
+	height: 30px;
+}
+
+body {
+	background-color: lightblue;
+}
+
+.button {
+	border-radius: 12px;
+	font-size: 15px;
+	width: 120px;
+	height: 50px;
+}
+
+.dropdown {
+	width: 30%;
+	display: inline-block;
+}
+
+.textarea {
+	width: 50%;
+	display: inline-block;
+}
+
+.paramLabel {
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.paramInput {
+	margin-right: 10px;
+	display: inline-block;
+	margin-top: 10px;
+	width: 200px;
+}
