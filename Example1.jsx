@@ -60,7 +60,7 @@ This will walk you through a command line prompt to add some basic details about
 Make sure you commit the package.json to git so that others will use the same packages (and versions) as you when working on the project. It's uncommon to check in node_modules, since these tend to be large and can be downloaded based on the dependencies listed in the package.json. To add a new dependency foo-bar to your package.json, run:
 	"npm install --save foo-bar"
 Note: If you're on npm version 5, you can leave off the --save. Prior to v5, --save was necessary to add the dependency to the package.json. Otherwise, the package would get installed, but not added as a dependency. In v5, --save is the default behavior.
-Also: If you're on npm version 5, when you install dependencies, a package-lock.json file will be automatically generated. This file helps ensure reproducible builds by locking down the exact version of dependencies. This file should also be committed into git.
+Also: If you're on npm version 5, when you install dependencies, a package-lock.json file will be automatically generated. This file helps ensure reproducible builds by locking down the exact version of dependencies. This file should also be committed into git. Check https://github.com/RamasubramaniN/React/blob/master/package-lock.json. It stores an exact, versioned dependency tree rather than using starred versioning like package.json itself (e.g. 1.0.*). This means you can guarantee the dependencies for other developers or prod releases, etc. It also has a mechanism to lock the tree but generally will regenerate if package.json changes.
 
 
 JSX is a superset of JS that allows you to write what looks like markup in your JavaScript code.
