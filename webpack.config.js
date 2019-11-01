@@ -1,6 +1,4 @@
 var webpack = require('webpack');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-var EncodingPlugin = require('webpack-encoding-plugin');
 
 var config = {
    entry: './main.js',
@@ -24,20 +22,13 @@ var config = {
          },
          { 
             test: /\.css$/, 
-            use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'resolve-url-loader']
-         },
-         {
-            test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000'
+            use: ['style-loader', 'css-loader', 'postcss-loader', 'resolve-url-loader']
          },
          {
             test: /\.(png|jpg|gif)$/, loader: 'file-loader'
          }
       ]
-   },
-   plugins: [ 
-    new MiniCssExtractPlugin({filename: 'common.css'}),
-    new EncodingPlugin({encoding: 'iso-8859-1'})
-  ]
+   }
 }
 module.exports = config;
 

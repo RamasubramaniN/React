@@ -8,7 +8,7 @@ import React from 'react';
 //Many ES2015 features are already available in modern JavaScript engines. However, for maximum browser compatibility,
 //it's still safest to use Babel and compile down to ES5.
 //Instead of using var to declare local variables, we use const and let. The main difference is that var is scoped to a function, while const and let are scoped to a block.
-Additionally, variables declared with const can only be assigned a value once. Assigning another value to the 
+//Additionally, variables declared with const can only be assigned a value once. Assigning another value to the 
 //same name will throw a compiler error. Note that if the value assigned to a const variable is an object or array,
 // the object or array may still be modified. In other words, it's only the variable name that is bound permanently
 // -- the value itself is still mutable.

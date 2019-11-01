@@ -13,8 +13,6 @@
     "file-loader": "^2.0.0",
     "moment": "^2.22.2",
     "postcss-loader": "^2.1.6",
-    "primeicons": "^1.0.0-beta.10",
-    "primereact": "^2.0.0-beta.3",
     "react": "^16.4.1",
     "react-calendar": "^2.17.4",
     "react-datepicker": "^1.6.0",
@@ -31,12 +29,10 @@
     "svg-icon": "^0.8.2",
     "tachyons-components": "^1.0.1",
     "webpack-dev-server": "^3.1.4",
-    "webpack-encoding-plugin": "^0.2.1"
+    "webpack-encoding-plugin": "^0.3.1"
   },
   "devDependencies": {
     "css-loader": "^1.0.0",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "mini-css-extract-plugin": "^0.4.1",
     "resolve-url-loader": "^2.3.0",
     "style-loader": "^0.21.0",
     "url-loader": "^1.1.1",

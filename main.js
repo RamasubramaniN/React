@@ -12,16 +12,7 @@ import Example9 from './Example9.jsx';
 import Example10 from './Example10.jsx';
 import Example11 from './Example11.jsx';
 import RoutesExample from './RoutesExample.jsx';
-import HtmlTable from './HtmlTable.jsx';
-import 'primereact/resources/themes/nova-light/theme.css';
-import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
 import Spinner from './Spinner.jsx';
-import TabExample from './TabExample.jsx';
-import DynamicComponent from './DynamicComponent.jsx';
-import CalendarExample from './CalendarExample.jsx';
-import WrapperTable from './WrapperTable.jsx';
-
 
 //Example1.jsx
 //ReactDOM.render(<Example1 />, document.getElementById('app'));
@@ -72,4 +63,4 @@ import WrapperTable from './WrapperTable.jsx';
 //ReactDOM.render(<CalendarExample />, document.getElementById('app'));
 
 //Harmony UI
-ReactDOM.render(<WrapperTable />, document.getElementById('app'));
+ReactDOM.render(<Example7 />, document.getElementById('app'));
