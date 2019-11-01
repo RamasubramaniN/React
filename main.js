@@ -13,6 +13,7 @@ import Example10 from './Example10.jsx';
 import Example11 from './Example11.jsx';
 import RoutesExample from './RoutesExample.jsx';
 import Spinner from './Spinner.jsx';
+import Children from './Children.jsx';
 
 //Example1.jsx
 //ReactDOM.render(<Example1 />, document.getElementById('app'));
@@ -63,4 +64,7 @@ import Spinner from './Spinner.jsx';
 //ReactDOM.render(<CalendarExample />, document.getElementById('app'));
 
 //Harmony UI
-ReactDOM.render(<Example7 />, document.getElementById('app'));
+//ReactDOM.render(<Example7 />, document.getElementById('app'));
+
+//Props.children example.
+ReactDOM.render(<Children />, document.getElementById('app'));
